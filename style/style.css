@@ -192,3 +192,43 @@ footer {
         height: 200px;
     }
 }
+
+@media (max-width: 270px){
+
+    .navbar-brand{
+        font-size: .1rem;
+    }
+    .hero-overlay{
+        width: 200px;
+    }
+    .hero-overlay h1{
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 150px){
+    .hero-overlay{
+        width: 50px;
+        font-size: .1rem;
+    }
+    .hero-overlay h1, .text-center, .text-center h2, .col-md-3, .col-md-3 h5{
+        font-size: .3rem;
+    }
+    .hero-overlay a{
+        font-size: .1rem;
+    }
+
+    .btn-lg{
+        width:50px;
+        font-size: .1rem;
+    }
+    .btn-primary{
+        width: .2px;
+        font-size: .1rem;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+}
